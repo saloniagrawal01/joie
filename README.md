@@ -1,2 +1,2 @@
-# joie
-Mental Health App
+# Joie
+Mental Health Website
