@@ -420,7 +420,7 @@ a {
 /*---------------------------------------
     Blog section              
 -----------------------------------------*/
-#blog .blog-thumb {
+#blog .blog-thumb, #blog .blog-thumb1,#blog .blog-thumb3, #blog .blog-thumb4 {
   border: 1px solid #f0f0f0;
   position: relative;
   padding: 60px;
@@ -436,16 +436,47 @@ a {
   color: #ffffff;
 }
 
-#blog .blog-thumb:hover .blog-date, #blog .blog-thumb:hover h3 a,
-#blog .blog-thumb:hover #blog-author {color: #ffffff;}
+#blog .blog-thumb1:hover {
+  background: url('../images/blog-thumb1.jpg');
+   -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+#blog .blog-thumb3:hover {
+  background: url('../images/blog-thumb2.jpg');
+   -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+#blog .blog-thumb4:hover {
+  background: url('../images/blog-thumb3.jpg');
+   -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+#blog .blog-thumb1:hover .blog-date, #blog .blog-thumb1:hover h3 a,
+#blog .blog-thumb1:hover #blog-author,#blog .blog-thumb:hover .blog-date, #blog .blog-thumb:hover h3 a,
+#blog .blog-thumb:hover #blog-author, #blog .blog-thumb3:hover .blog-date, #blog .blog-thumb3:hover h3 a,
+#blog .blog-thumb3:hover #blog-author,#blog .blog-thumb4:hover .blog-date, #blog .blog-thumb4:hover h3 a,
+#blog .blog-thumb4:hover #blog-author {color: #ffffff;}
+
 
 #blog .col-md-6:nth-child(2) .blog-thumb,
-#blog .col-md-6:nth-child(3) .blog-thumb {
+#blog .col-md-6:nth-child(3) .blog-thumb, #blog .col-md-6:nth-child(2) .blog-thumb1,
+#blog .col-md-6:nth-child(3) .blog-thumb1, #blog .col-md-6:nth-child(2) .blog-thumb3,
+#blog .col-md-6:nth-child(3) .blog-thumb3, #blog .col-md-6:nth-child(2) .blog-thumb4,
+#blog .col-md-6:nth-child(3) .blog-thumb4  {
   margin-top: 72px;
 }
 
 #blog .col-md-6:nth-child(4) .blog-thumb,
-#blog .col-md-6:nth-child(5) .blog-thumb {
+#blog .col-md-6:nth-child(5) .blog-thumb, #blog .col-md-6:nth-child(2) .blog-thumb1,
+#blog .col-md-6:nth-child(3) .blog-thumb1,#blog .col-md-6:nth-child(2) .blog-thumb3,
+#blog .col-md-6:nth-child(3) .blog-thumb3,#blog .col-md-6:nth-child(2) .blog-thumb4,
+#blog .col-md-6:nth-child(3) .blog-thumb4  {
   margin-top: 42px;
 }
 
